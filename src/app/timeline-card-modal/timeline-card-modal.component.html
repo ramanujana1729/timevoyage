@@ -1,0 +1,17 @@
+<!-- timeline-card-modal.component.html -->
+<div class="modal-overlay" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="close-button" (click)="closeModal()">Close</button>
+      <div>
+        <img *ngIf="event.image" [src]="event.image" alt="image">
+        <video *ngIf="event.video" [src]="event.video" controls></video>
+      </div>
+      <div>
+      <h2>{{ event.title }}</h2>
+      <p>Date: {{ event.date }}</p>
+      <p>{{ event.description }}</p>
+    </div>
+      <!-- Additional event details -->
+    </div>
+  </div>
+  

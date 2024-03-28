@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 90px 0px;
+}
+::-webkit-scrollbar {
+  width: 2px; /* Decrease the width of vertical scrollbar */
+}
+
+/* Style for horizontal scrollbar */
+::-webkit-scrollbar-thumb:horizontal {
+  width: 3px; /* Decrease the width of horizontal scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Color of scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Color of scrollbar thumb on hover */
+}
+
+/* Style for horizontal scrollbar */
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); /* Color of scrollbar track */
+}
+
+/* Style for input box of type text */
+input[type="text"] {
+  padding: 10px; /* Padding around the input */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for border color and box shadow */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow to give depth */
+}
+
+/* Hover effect */
+input[type="text"]:hover {
+  border-color: #aaa; /* Border color on hover */
+}
+
+/* Focus effect */
+input[type="text"]:focus {
+  border-color: #007bff; /* Border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.6); /* Box shadow on focus */
+  outline: none; /* Remove default focus outline */
+}

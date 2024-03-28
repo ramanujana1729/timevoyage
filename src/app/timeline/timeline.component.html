@@ -1,0 +1,19 @@
+<h1 class="mainHeading">TimeVoyage</h1>
+<div id="filters">
+    <input type="text" name="search" id="" placeholder="Search Events..." (input)="search($event)">
+</div>
+<div class="timeline" >
+    <div class="events" #eventsCont>
+      <div *ngFor="let event of events" class="event">
+        <div class="event-content" (click)="openModal(event)">
+          <h3>{{ event.title }}</h3>
+          <p>Date: {{ event.date }}</p>
+          <p>{{ event.description }}</p>
+          <!-- Add more HTML to display other event details -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-timeline-card-modal *ngIf="modalOpen" [event]="selectedEvent" (close)="closeModal()"></app-timeline-card-modal>
+  

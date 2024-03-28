@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "title": "The Renaissance Begins",
+      "date": "14th Century",
+      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
+      "image": "renaissance.jpg",
+      "video": "https://www.youtube.com/watch?v=1"
+    },
+    {
+      "id": 2,
+      "title": "Declaration of Independence",
+      "date": "1776",
+      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
+      "image": "declaration_of_independence.jpg",
+      "video": "https://www.youtube.com/watch?v=1"
+    },
+    {
+      "id": 3,
+      "title": "Fall of the Berlin Wall",
+      "date": "1989",
+      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
+      "image": "berlin_wall.jpg",
+      "video": "https://www.youtube.com/watch?v=1"
+    },
+      {
+        "id": 4,
+        "title": "Invention of the Printing Press",
+        "date": "1440",
+        "description": "Johannes Gutenberg's invention of the printing press revolutionized communication and facilitated the spread of knowledge, contributing to the Renaissance and the Reformation.",
+        "image": "printing_press.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 5,
+        "title": "American Revolution",
+        "date": "1775-1783",
+        "description": "The American Revolution was a colonial revolt against British rule that led to the independence of the United States of America. It marked a pivotal moment in world history and inspired other independence movements.",
+        "image": "american_revolution.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 6,
+        "title": "Industrial Revolution Begins",
+        "date": "Late 18th Century",
+        "description": "The Industrial Revolution was a period of profound economic, technological, and social change, characterized by the shift from agrarian and handicraft economies to industrialized ones.",
+        "image": "industrial_revolution.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 7,
+        "title": "French Revolution",
+        "date": "1789-1799",
+        "description": "The French Revolution was a period of radical social and political upheaval in France, resulting in the abolition of the monarchy, the establishment of a republic, and significant changes in society.",
+        "image": "french_revolution.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 8,
+        "title": "Civil Rights Movement",
+        "date": "1950s-1960s",
+        "description": "The Civil Rights Movement was a struggle for social justice and equality, primarily led by African Americans in the United States, to end racial segregation and discrimination.",
+        "image": "civil_rights_movement.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 9,
+        "title": "Moon Landing",
+        "date": "1969",
+        "description": "The first manned moon landing, Apollo 11, marked a historic achievement for humanity and a significant milestone in space exploration.",
+        "image": "moon_landing.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 10,
+        "title": "World War I",
+        "date": "1914-1918",
+        "description": "World War I, also known as the Great War, was a global conflict that engulfed much of Europe, along with other regions of the world. It resulted in millions of casualties and profound political changes.",
+        "image": "world_war_i.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 11,
+        "title": "Russian Revolution",
+        "date": "1917",
+        "description": "The Russian Revolution was a pair of revolutions in Russia in 1917 that dismantled the Tsarist autocracy and led to the rise of the Soviet Union. It profoundly affected global politics and society.",
+        "image": "russian_revolution.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 12,
+        "title": "End of Apartheid in South Africa",
+        "date": "1994",
+        "description": "The end of apartheid in South Africa marked the culmination of a long struggle against racial segregation and discrimination. It led to the election of Nelson Mandela as the first black president of South Africa.",
+        "image": "end_of_apartheid.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      },
+      {
+        "id": 13,
+        "title": "Women's Suffrage Movement",
+        "date": "Late 19th Century - Early 20th Century",
+        "description": "The women's suffrage movement fought for women's right to vote and other civil rights. It played a significant role in achieving women's suffrage in various countries around the world.",
+        "image": "womens_suffrage.jpg",
+        "video": "https://www.youtube.com/watch?v=1"
+      }
+        
+  ]
+  

@@ -1,0 +1,50 @@
+.mainHeading {
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#filters {
+  margin: 20px;
+}
+
+#timeline {
+  width: 80%;
+  height: 250px;
+  border: 1px solid red;
+  overflow: scroll;
+  margin: 20px;
+}
+.events {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.event {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.event-content {
+  cursor: pointer;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin-right: 20px;
+}
+
+// trying to have markers
+// .event::before {
+//   content: "";
+//   width: 2px;
+//   background-color: #333;
+//   margin-right: 20px;
+// }
+
+// .event:last-child {
+//   margin-bottom: 0;
+// }
