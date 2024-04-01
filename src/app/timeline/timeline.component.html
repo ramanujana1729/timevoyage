@@ -1,6 +1,10 @@
 <h1 class="mainHeading">TimeVoyage</h1>
 <div id="filters">
     <input type="text" name="search" id="" placeholder="Search Events..." (input)="search($event)">
+    <div id="zoomInOut">
+      <img src="../../assets/zoomIn.svg" alt="" srcset="" width="50px" height="50px" (click)="zoomInOut(0)">
+      <img src="../../assets/zoomOut.svg" alt="" srcset="" width="50px" height="50px" (click)="zoomInOut(1)">
+    </div>
 </div>
 <div class="timeline" >
     <div class="events" #eventsCont>

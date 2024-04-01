@@ -7,11 +7,22 @@
 
 #filters {
   margin: 20px;
+  display: flex;
+}
+
+#filters #zoomInOut {
+  margin-left: auto;
+  background-color: yellow;
+}
+
+#filters #zoomInOut img {
+  border: 2px solid red;
+  padding: 4px;
 }
 
 #timeline {
   width: 80%;
-  height: 250px;
+  height: 260px;
   border: 1px solid red;
   overflow: scroll;
   margin: 20px;
@@ -29,12 +40,18 @@
 
 .event-content {
   cursor: pointer;
+  font-size: 14px;
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   width: 320px;
+  height: 180px;
   margin-right: 20px;
+}
+
+.event-content p:nth-child(3) {
+  padding-top: 20px;
 }
 
 // trying to have markers

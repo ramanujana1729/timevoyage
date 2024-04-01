@@ -15,13 +15,19 @@ export class TimelineComponent {
   events: any[] = [];
   modalOpen: boolean = false;
   selectedEvent: any;
+  zoomLevel: number = 1;
+  initialWidth: number = 0;
 
   @ViewChild('eventsCont', { static: true }) eventsCont!: ElementRef;
+  // @ViewChild('timelineContainer', { static: true }) timelineContainer!: ElementRef;
 
   constructor(private eventDataService: EventDataService, private el: ElementRef) { }
 
   ngOnInit(): void {
     this.getEvents();
+    // this.initialWidth = this.eventsCont.nativeElement.offsetWidth;
+    // this.initialWidth = this.eventsCont;
+    console.log('this.initialWidth', this.eventsCont);
   }
 
   @HostListener('wheel', ['$event'])
@@ -71,5 +77,28 @@ export class TimelineComponent {
 
   closeModal(): void {
     this.modalOpen = false;
+  }
+
+  zoomInOut(z: any): void {
+    if(z==0) {
+      console.log('zoom in');
+      this.zoomLevel += 0.1;
+      this.updateEventCardStyles();
+    } else {
+      console.log('zoom out')
+      if (this.zoomLevel > 0.1) {
+        this.zoomLevel -= 0.1;
+        this.updateEventCardStyles();
+      }
+    }
+  }
+
+  private updateEventCardStyles(): void {
+    const eventElements = this.eventsCont.nativeElement.querySelectorAll('.event-content');
+    eventElements.forEach((element: HTMLElement) => {
+      element.style.width = `${320 * this.zoomLevel}px`; // Adjust width
+      element.style.fontSize = `${14 * this.zoomLevel}px`; // Adjust font size
+      console.log(element.style.fontSize);
+    });
   }
 }
